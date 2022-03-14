@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container } from "styled-bootstrap-grid";
 import {
   NavbarContainer,
   LeftContainer,
@@ -15,6 +16,7 @@ function Nav() {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   return (
+    <Container fluid>
     <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
        
@@ -49,6 +51,7 @@ function Nav() {
         </NavbarExtendedContainer> 
       )}
     </NavbarContainer>
+    </Container>
   );
 }
 
