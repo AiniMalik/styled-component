@@ -6,14 +6,15 @@ export const StyledFooter= styled.div`
 background-color: #353535;
 
 
-h4{
+
+  
+`;
+
+export const H4 = styled.h4`
     color: white;
     font-size: 20px;
     margin-top: 30px;
     font-weight: normal;
-
-}
-  
 `;
 
 

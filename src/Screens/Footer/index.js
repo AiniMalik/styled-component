@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledFooter, ContactH, ContactP, h4, ListH, FollowH, FollowIcon, Input } from './Footer.styled'
+import { StyledFooter, ContactH, ContactP, H4, ListH, FollowH, FollowIcon, Input } from './Footer.styled'
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 import {ThemeProvider} from 'styled-components'
 import { Container } from 'styled-bootstrap-grid'
@@ -33,7 +33,7 @@ export default function Footer() {
       <Row>
         <Col xs={12} sm={12} md={3} lg={3}></Col>
         <Col xs={12} sm={12} md={3} lg={3}>
-         <h4> Contact Us</h4> 
+         <H4> Contact Us</H4> 
           <Row>
             <Col xs={12} sm={12} md={12} lg={12} ><ContactH>Head Office</ContactH></Col>
             <Col xs={12} sm={12} md={12} lg={12}><ContactP>Legacay Plaza, Opposite Al-Maida, Kohinoor City, Faisalabad.</ContactP></Col>
@@ -44,7 +44,7 @@ export default function Footer() {
           </Row>
           </Col>
         <Col xs={12} sm={12} md={3} lg={3}>
-         <h4>List</h4>
+         <H4>List</H4>
 
           <Row>
             <Col xs={12} sm={12} md={12} lg={12} ><ListH>Home</ListH></Col>
@@ -56,7 +56,7 @@ export default function Footer() {
           </Row>
           </Col>
         <Col xs={12} sm={12} md={3} lg={3}>
-         <h4>Follow</h4>
+         <H4>Follow</H4>
 
          <Row>
             <Col xs={12} sm={12} md={12} lg={12}><FollowH>We’re always on the lookout for the cutting-edge tech and brand innovations. Join us today.</FollowH></Col>
