@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import black from '../../Img/black.jpg'
-import green from '../../Img/green.jpg'
 
 
 
