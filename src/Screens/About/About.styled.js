@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import dp from '../../Img/dp.jpg';
+
 
 
 export const StyledAbout =styled.div`
