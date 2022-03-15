@@ -3,15 +3,18 @@ import styled from "styled-components";
 
 
 export const StyledAbout =styled.div`
-background-color: #c8faf2;
+background-color: #e6faf5;
 text-align: center;
 
-h1{
-    color:black;
-    text-align:center;
-}
-`;
 
+`;
+export const H1 = styled.h1`
+
+  color:black; 
+  text-align:center;
+  margin-top: 10%;
+  font-size: 40px;
+` ;
 
 
 export const Button = styled.button`
@@ -67,9 +70,8 @@ export const Header= styled.h1`
 `;
 
 export const AboutH= styled.h1`
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 20px;
-    word-break: break-all;
 `;
 
 
@@ -77,18 +79,37 @@ export const AboutP= styled.h1`
     font-size: 20px;
     font-weight: normal;
     margin-top: 20px; 
-    word-break: break-all;
     text-align: center;
 
 
 `;
 export const Div = styled.div`
   text-align: center;
-   background-color: #6fbf39;
-   border: 1px solid #6fbf39;
+   background-color: #0ec755;
+   border: 1px solid #0ec755;
    border-radius: 30px;
    width: 800px;
    margin-left: 18%;
+
+   @media screen and (max-width: 1200px) {
+    margin-right: 15%;
+  
+  }
+  /* @media screen and (max-width: 800px) {
+   
+  }
+  @media screen and (max-width: 723px) {
+   
+  }
+  @media screen and (max-width: 621px) {
+  
+  }
+  @media screen and (max-width: 600px) {
+    
+  } */
+  @media screen and (max-width: 450px) {
+    margin-right: 10%;
+  }
 
 `;
 export const AboutHeader= styled.h2`
@@ -103,7 +124,6 @@ export const AboutParagraph= styled.p`
     font-size: 20px;
     font-weight: normal;
     margin-top: 20px; 
-    word-break: break-all;
     text-align: center;
     color: white;
 
@@ -117,6 +137,44 @@ width: 230px;
 height: 300px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 text-align: center;
+margin-top: 20px;
+margin-bottom: 20px ;
+margin-left: 15%;
+  
+@media screen and (max-width: 1200px) {
+     margin-left: 35%;
+     margin-top: 10px;
+     margin-bottom: 20px;
+  
+  }
+  @media screen and (max-width: 800px) {
+    margin-left: 35%; 
+  }
+ @media screen and (max-width: 723px) {
+    margin-left: 35%;
+  } 
+  @media screen and (max-width: 621px) {
+    margin-left: 35%;
+  }
+  @media screen and (max-width: 1024px) {
+    margin-left: 14%;
+  }
+  @media screen and (max-width: 768px) {
+    margin-left: 35%;
+  }
+  @media screen and (max-width: 600px) {
+    margin-left: 30%;
+  } 
+  @media screen and (max-width: 450px) {
+    margin-left: 20%;
+  }
+  @media screen and (max-width: 375px) {
+    margin-left: 10%;
+  }
+  @media screen and (max-width: 320px) {
+    margin-left: 5%;
+  }
+
 `;
 
 
@@ -138,5 +196,6 @@ export const AdsHeader= styled.h4`
 `;
  export const  Aboutp =styled.h5`
  font-size: large;
- margin-top: 50%;
+ margin-top: 15%;
+
  `;

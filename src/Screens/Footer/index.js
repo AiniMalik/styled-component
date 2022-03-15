@@ -1,8 +1,8 @@
 import React from 'react'
-import { StyledFooter, ContactH, ContactP, H4, ListH, FollowH, FollowIcon, Input } from './Footer.styled'
+import { StyledFooter, ContactH, ContactP, H4, ListH, FollowH } from './Footer.styled'
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 import {ThemeProvider} from 'styled-components'
-import { Container } from 'styled-bootstrap-grid'
+import Container from 'react-bootstrap/Container'
 
 export default function Footer() {
   const theme = {
@@ -30,6 +30,7 @@ export default function Footer() {
     <StyledFooter>
     <ThemeProvider theme={theme}>
     <Grid>
+      <br/>
       <Row>
         <Col xs={12} sm={12} md={3} lg={3}></Col>
         <Col xs={12} sm={12} md={3} lg={3}>
@@ -60,12 +61,14 @@ export default function Footer() {
 
          <Row>
             <Col xs={12} sm={12} md={12} lg={12}><FollowH>We’re always on the lookout for the cutting-edge tech and brand innovations. Join us today.</FollowH></Col>
-            <Col xs={12} sm={12} md={12} lg={12}> <Input placeholder='E-mail Address'/></Col>
-            <Col xs={12} sm={12} md={12} lg={12}><FollowIcon>Team</FollowIcon></Col>
+            {/* <Col xs={12} sm={12} md={12} lg={12}> <Input placeholder='E-mail Address'/></Col>
+            <Col xs={12} sm={12} md={12} lg={12}><FollowIcon>Team</FollowIcon></Col> */}
          </Row>
          
           </Col>
       </Row>
+      <br/>
+      <br/>
     </Grid>
   </ThemeProvider>
   </StyledFooter>

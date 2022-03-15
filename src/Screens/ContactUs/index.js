@@ -4,7 +4,7 @@ import { StyledContact,Input, Button, Textarea
 } from './Contact.styled'
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 import {ThemeProvider} from 'styled-components'
-import { Container } from 'styled-bootstrap-grid';
+import Container from 'react-bootstrap/Container'
 
 
 export default function Contact() {
@@ -29,7 +29,7 @@ export default function Contact() {
     }
   }
   return (
-    <Container fluid>
+   <Container fluid>
     <StyledContact>
       <p>Contact Us</p>
       
@@ -70,6 +70,6 @@ export default function Contact() {
          
        </ThemeProvider>
     </StyledContact>
-    </Container>
+     </Container>
   )
 }

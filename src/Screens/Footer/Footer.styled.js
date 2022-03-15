@@ -12,7 +12,7 @@ background-color: #353535;
 
 export const H4 = styled.h4`
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 30px;
     font-weight: normal;
 `;

@@ -13,7 +13,7 @@ p{
     text-align:center;
     padding-top: 20px;
     font-weight: 500;
-}
+} 
 
 `;
 

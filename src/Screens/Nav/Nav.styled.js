@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 
 export const NavbarContainer = styled.nav`
-  width: 100%;
+  /* width: 100%; */
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-  background-color: transparent;
-  position: absolute;
+  background-color: black;
   display: flex;
   flex-direction: column;
   @media (min-width: 700px) {
@@ -17,14 +16,14 @@ export const LeftContainer = styled.div`
   flex: 70%;
   display: flex;
   align-items: center;
-  padding-left:25%;
+  padding-left: 5%;
 `;
 
 export const RightContainer = styled.div`
   flex: 30%;
   display: flex;
-  justify-content: flex-start;
-  
+  justify-content: flex-end;
+  padding-right: 50px;
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -48,12 +47,14 @@ export const Link = styled.div`
   }
 `;
 
-export const NavbarLinkExtended = styled(Link)`
+export const NavbarLinkExtended = styled.div`
   color: white;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  margin: 10px;
+  margin: 10%;
+  margin-top: 3%;
+  
 `;
 
 // export const Logo = styled.img`
@@ -69,9 +70,9 @@ export const OpenLinksButton = styled.button`
   border: none;
   color: white;
   font-size: 45px;
-  padding-left: 35%;
- 
   cursor: pointer;
+  padding-left: 45px;
+ 
   @media (min-width: 700px) {
     display: none;  
   }
@@ -81,7 +82,7 @@ export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+
   @media (min-width: 700px) {
       display: none;
   }

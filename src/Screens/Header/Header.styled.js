@@ -4,8 +4,6 @@ import black from '../../Img/black.jpg'
 
 
 export const StyledHeader = styled.div `
-max-width: 100%;
-padding: 40px;
 background-image: url(${black});
 background-repeat: no-repeat repeat;
 background-size: cover;
@@ -17,7 +15,7 @@ h1{
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
     font-weight: bolder;
 
 }
@@ -44,7 +42,7 @@ font-weight: 500;
 line-height: 26px;
 padding: 1px 6px 1px 6px;
 margin-top: 20px;
-margin-bottom: 20px;
+margin-bottom: 20px; 
 text-align: center;
 
 

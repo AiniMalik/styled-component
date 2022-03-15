@@ -2,7 +2,7 @@ import React from 'react'
 import { StyledHeader, Button } from './Header.styled';
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 import {ThemeProvider} from 'styled-components'
-import { Container } from 'styled-bootstrap-grid'
+import Container from 'react-bootstrap/Container'
 
 export default function Header() {
 
@@ -49,6 +49,8 @@ export default function Header() {
         <Button>Investment Opportunities</Button>
         </Col>
       </Row>
+      <br/>
+      <br/>
       </Grid>
       </ThemeProvider>   
       </StyledHeader>
